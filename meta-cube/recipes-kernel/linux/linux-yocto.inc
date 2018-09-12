@@ -22,8 +22,8 @@ KERNEL_FEATURES_append = " cfg/fs/ext2.scc"
 KERNEL_MODULE_AUTOLOAD_append += "nf_conntrack_ipv6 openvswitch"
 
 # we trust the latest!
-SRCREV_machine_${MACHINE}="${AUTOREV}"
-SRCREV_meta="${AUTOREV}"
+#SRCREV_machine_${MACHINE}="${AUTOREV}"
+#SRCREV_meta="${AUTOREV}"
 
 # we are ok with version mismatches, since AUTOREV is frequently used
 deltask kernel_version_sanity_check
