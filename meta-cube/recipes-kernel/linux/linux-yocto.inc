@@ -38,8 +38,8 @@ module_conf_nf_conntrack = "options nf_conntrack hashsize=131072"
 module_conf_nf_conntrack_ipv6 = "options nf_conntrack_ipv6 hashsize=131072"
 
 # we trust the latest!
-SRCREV_machine_${MACHINE}="${AUTOREV}"
-SRCREV_meta="${AUTOREV}"
+#SRCREV_machine_${MACHINE}="${AUTOREV}"
+#SRCREV_meta="${AUTOREV}"
 
 # we are ok with version mismatches, since AUTOREV is frequently used
 deltask kernel_version_sanity_check
