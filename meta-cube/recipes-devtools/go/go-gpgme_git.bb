@@ -9,7 +9,7 @@ SRCNAME = "gpgme"
 PKG_NAME = "github.com/mtrmac/${SRCNAME}"
 SRC_URI = "git://${PKG_NAME}.git;branch=master;destsuffix=git/src/${PKG_NAME}"
 
-SRCREV = "f03421e26925ca72d1e07098d25cb632151df79d"
+SRCREV = "eb8fd3832c3df8a5b3a4a058d488eb7d37471bd5"
 PV = "v0.1+git${SRCPV}"
 
 S = "${WORKDIR}/git"
