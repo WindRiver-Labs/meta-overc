@@ -16,7 +16,7 @@ Dependencies
 ------------
 This layer depends on:
 
-URI: git://github.com/openembedded/openembedded-core.git
+URI: https://github.com/openembedded/openembedded-core.git
 branch: master
 revision: HEAD
 prio: default
@@ -27,7 +27,7 @@ revision: HEAD
 layers: meta-yocto-bsp
 prio: default
 
-URI: git://github.com/openembedded/meta-openembedded.git
+URI: https://github.com/openembedded/meta-openembedded.git
 branch: master
 revision: HEAD
 layers: meta-oe
@@ -44,7 +44,7 @@ branch: master
 revision: HEAD
 prio: default
 
-URI: git://github.com/OSSystems/meta-browser.git
+URI: https://github.com/OSSystems/meta-browser.git
 branch: master
 revision: HEAD
 prio: default

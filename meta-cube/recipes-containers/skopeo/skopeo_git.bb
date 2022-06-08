@@ -19,7 +19,7 @@ RDEPENDS_${PN} = "gpgme \
                   libassuan \
                  "
 
-SRC_URI = "git://github.com/projectatomic/skopeo"
+SRC_URI = "git://github.com/projectatomic/skopeo;protocol=https;branch=main"
 #SRC_URI += "file://0001-Vendor-after-merging-mtrmac-image-manifest-list-hotf.patch"
 
 SRCREV = "c1a0084bb32c19fde6cc691cfb85300dda381376"

@@ -7,7 +7,7 @@ RDEPENDS_${PN} = "skopeo \
                  "
 
 SRCREV_umoci = "6e68a6a2ae3e12ad78110ab9e68aa56f8281498f"
-SRC_URI = "git://github.com/openSUSE/umoci;branch=master;name=umoci;destsuffix=git/src/github.com/openSUSE/umoci \
+SRC_URI = "git://github.com/openSUSE/umoci;protocol=https;branch=master;name=umoci;destsuffix=git/src/github.com/openSUSE/umoci \
           "
 
 PV = "v0.3.1-dev+git${SRCPV}"
